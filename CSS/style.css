@@ -1,0 +1,31 @@
+body{
+    background-color: #777 !important;
+}
+nav{
+    opacity: 0.8;
+}
+.navbar-brand{
+    transition: 0.4s;
+}
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px white,-10px -10px 20px white;
+}
+.dropdown-menu li a{
+    text-shadow: 1px 1px 0px rgb(153, 153, 153);
+}
+.bgImg{
+    background-image: url('../images/imag.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.myicon{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+.carousel-inner .carousel-caption {
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
